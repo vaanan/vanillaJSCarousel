@@ -1,0 +1,13 @@
+#carousel{
+    list-style: none;
+    width: 94%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.carouselItem{
+    display: inline-block; /* Using inline-block over floats as floats will overflow onto next line */
+    border: 2px solid;
+    padding:10px;
+    width:1%;
+}
